@@ -39,11 +39,11 @@ Let’s create something great together!</h2>
             <img  class ="hidden md:block" src={float} alt="" />
           </div>
       </div>
-    </div>https://github.com/Olivier-Masabo/tailwind-practice.git
-      <div class="p-10 text-center font-bold text-2xl">
+    </div>
+      <div className="p-10 text-center font-bold text-2xl">
         ----------- About ------------
       </div>
-           <div class="mt-10">
+           <div className="mt-10">
              <img class="flex  py-6 md:hidden" src={profil} alt="" />
              <div class="about-page">
 
@@ -98,6 +98,17 @@ Let’s create something great together!</h2>
 </div>
 </div>
 
+</div>
+
+  <h1 className="text-2xl text-center font-bold">-------- Resume ---------</h1>
+<div className="border-amber-300 border-2 mt-4 flex justify-evenly items-center">
+  <div>
+    <h1>hello</h1>
+  </div>
+
+  <div>
+    <p>second div</p>
+    </div>
 </div>
       </>
   );
