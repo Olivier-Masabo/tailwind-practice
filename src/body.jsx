@@ -17,7 +17,7 @@ import profile from './assets/prof.jpg'
         <ul className="hidden  md:flex justify-around items-center gap-x-5 mr-10 text-sl cursor-pointer text-black">
             <li className="text-red-500 active-link">Home</li>
             <li><a href="#about">About</a></li>
-            <li>Resume</li>
+            <li><a href="#resume">Resume</a></li>
             <li>Services</li>
             <li>contact</li>-
         </ul> 
@@ -100,10 +100,10 @@ Let’s create something great together!</h2>
 
 </div>
 
-  <h1 className="text-2xl text-center font-bold ">-------- Resume ---------</h1>
-<div className="border-amber-300 border-2 mt-4 flex justify-evenly items-center ">
+  <h1 id="resume" className="p-10 text-center font-bold text-2xl ">----------- Resume -----------</h1>
+<div className="mt-4 flex justify-evenly items-center ">
   <div className='border-green-300 border-2  w-lg text-center h-[60vh] rounded-xl bg-gray-200 m-10'>
-    <h2 class="flex items-center text-lg font-bold justify-center mb-5">
+    <h2 class="flex items-center text-lg font-bold justify-center mb-5 mt-3">
  
       Education Background
   <svg xmlns="http://www.w3.org/2000/svg" 
@@ -128,7 +128,7 @@ Let’s create something great together!</h2>
     </p>
     <p class="text-gray-700">
       <strong> Advanced Secondary School</strong>
-      <ul className='list-disc list-inside'>
+      <ul className='list-disc list-inside  text-start px-3'>
       <li>Networking</li>
       <li>software development</li>
       <li>camera installation</li> (Graduated 2024)
@@ -137,10 +137,53 @@ Let’s create something great together!</h2>
 
       <p class="text-gray-700">
       <strong> Ordinary Secondary School</strong>
-      <ul className='list-disc list-inside'>
+      <ul className='list-disc list-inside  text-start px-3'>
       <li>English basic</li>
       <li>Communication skills</li>
       <li>Basic in technology</li> (Graduated 2019)
+      </ul>
+    </p>
+  </div>
+
+  </div>
+
+
+    <div className='border-green-300 border-2  w-lg text-center h-[60vh] rounded-xl bg-gray-200 m-10'>
+    <h2 class="flex items-center text-lg font-bold justify-center mb-5 mt-3">
+      Skills
+<svg xmlns="http://www.w3.org/2000/svg" 
+     fill="none" 
+     viewBox="0 0 24 24" 
+     stroke-width="1.5" 
+     stroke="currentColor" 
+     class="w-10 h-10 text-yellow-500 ml-3">
+  <path stroke-linecap="round" 
+        stroke-linejoin="round" 
+        d="M12 2.25a6.75 6.75 0 00-3.375 12.6v1.275a.75.75 0 00.75.75h5.25a.75.75 0 00.75-.75v-1.275A6.75 6.75 0 0012 2.25zM9.75 18h4.5m-4.5 3h4.5" />
+</svg>
+
+
+</h2>
+ <div class="space-y-4">
+ 
+    <p class="text-gray-700">
+      <strong>Technical Skills</strong>
+      <ul className='list-disc list-inside text-start px-3'>
+      <li>Programming: JavaScript, HTML, CSS, React.js, Node.js, PostgreSQL</li>
+      <li>Networking: LAN/WAN setup, Router & Switch configuration</li>
+      <li>IT Support: Troubleshooting, Camera Installation, System Maintenance</li>
+      <li>Software: MS Office, Git & GitHub, VS Code</li> 
+      </ul>
+    </p>
+
+      <p class="text-gray-700">
+      <strong> Soft-Skills</strong>
+      <ul className='list-disc list-inside  text-start px-3'>
+        <li>Problem-solving</li>
+      <li>Attention to Detail</li>
+      <li>Time management</li>
+      <li>Adaptability</li> 
+      <li>Team work</li>
       </ul>
     </p>
   </div>
