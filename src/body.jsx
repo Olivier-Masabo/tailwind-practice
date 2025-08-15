@@ -19,7 +19,7 @@ import profile from './assets/prof.jpg'
             <li><a href="#about">About</a></li>
             <li>Resume</li>
             <li>Services</li>
-            <li>contact</li>
+            <li>contact</li>-
         </ul> 
         </div>
     </nav>
@@ -100,15 +100,54 @@ Let’s create something great together!</h2>
 
 </div>
 
-  <h1 className="text-2xl text-center font-bold">-------- Resume ---------</h1>
-<div className="border-amber-300 border-2 mt-4 flex justify-evenly items-center">
-  <div>
-    <h1>hello</h1>
+  <h1 className="text-2xl text-center font-bold ">-------- Resume ---------</h1>
+<div className="border-amber-300 border-2 mt-4 flex justify-evenly items-center ">
+  <div className='border-green-300 border-2  w-lg text-center h-[60vh] rounded-xl bg-gray-200 m-10'>
+    <h2 class="flex items-center text-lg font-bold justify-center mb-5">
+ 
+      Education Background
+  <svg xmlns="http://www.w3.org/2000/svg" 
+       fill="none" 
+       viewBox="0 0 24 24" 
+       stroke-width="1.5" 
+       stroke="currentColor" 
+       class="w-10 h-10 text-blue-600 ml-5">
+    <path stroke-linecap="round" 
+          stroke-linejoin="round" 
+          d="M12 14.25V21m0 0l-3.375-1.8a.75.75 0 01-.375-.648v-2.625m3.75 5.073l3.375-1.8a.75.75 0 00.375-.648v-2.625M12 14.25l-8.485-4.243a.75.75 0 010-1.314L12 4.5l8.485 4.193a.75.75 0 010 1.314L12 14.25z" />
+  </svg>
+</h2>
+ <div class="space-y-4">
+    <p class="text-gray-700">
+      <strong>Tumba College of Technology</strong>
+      <ul>
+      <li>
+        — Bachelor of Information Technology <br /> (Expected 2026)
+        </li> 
+      </ul>
+    </p>
+    <p class="text-gray-700">
+      <strong> Advanced Secondary School</strong>
+      <ul className='list-disc list-inside'>
+      <li>Networking</li>
+      <li>software development</li>
+      <li>camera installation</li> (Graduated 2024)
+      </ul>
+    </p>
+
+      <p class="text-gray-700">
+      <strong> Ordinary Secondary School</strong>
+      <ul className='list-disc list-inside'>
+      <li>English basic</li>
+      <li>Communication skills</li>
+      <li>Basic in technology</li> (Graduated 2019)
+      </ul>
+    </p>
   </div>
 
-  <div>
-    <p>second div</p>
-    </div>
+  </div>
+
+  
 </div>
       </>
   );
