@@ -102,8 +102,8 @@ Let’s create something great together!</h2>
 
   <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Resume -----------</h1>
 <section className=" flex justify-evenly items-center bg-gray-900 py-10">
-  <div className='border-green-300 border-2  w-lg text-center h-[60vh] rounded-xl bg-gray-200 m-10'>
-    <h2 class="flex items-center text-lg font-bold justify-center mb-5 mt-3">
+  <div className='border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
+    <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
  
       Education Background
   <svg xmlns="http://www.w3.org/2000/svg" 
@@ -118,7 +118,7 @@ Let’s create something great together!</h2>
   </svg>
 </h2>
  <div class="space-y-4">
-    <p class="text-gray-700">
+    <p class="text-white">
       <strong>Tumba College of Technology</strong>
       <ul>
       <li>
@@ -126,7 +126,7 @@ Let’s create something great together!</h2>
         </li> 
       </ul>
     </p>
-    <p class="text-gray-700">
+    <p class="text-white">
       <strong> Advanced Secondary School</strong>
       <ul className='list-disc list-inside  text-start px-3'>
       <li>Networking</li>
@@ -135,7 +135,7 @@ Let’s create something great together!</h2>
       </ul>
     </p>
 
-      <p class="text-gray-700">
+      <p class="text-white">
       <strong> Ordinary Secondary School</strong>
       <ul className='list-disc list-inside  text-start px-3'>
       <li>English basic</li>
@@ -148,8 +148,8 @@ Let’s create something great together!</h2>
   </div>
 
 
-    <div className='border-green-300 border-2  w-lg text-center h-[60vh] rounded-xl bg-gray-200 m-10'>
-    <h2 class="flex items-center text-lg font-bold justify-center mb-5 mt-3">
+    <div className='border-gray-500 border-1  w-lg text-center h-[60vh] rounded-xl m-10'>
+    <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
       Skills
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -166,7 +166,7 @@ Let’s create something great together!</h2>
 </h2>
  <div class="space-y-4">
  
-    <p class="text-gray-700">
+    <p class="text-white">
       <strong>Technical Skills</strong>
       <ul className='list-disc list-inside text-start px-3'>
       <li>Programming: JavaScript, HTML, CSS, React.js, Node.js, PostgreSQL</li>
@@ -176,7 +176,7 @@ Let’s create something great together!</h2>
       </ul>
     </p>
 
-      <p class="text-gray-700">
+      <p class="text-white">
       <strong> Soft-Skills</strong>
       <ul className='list-disc list-inside  text-start px-3'>
         <li>Problem-solving</li>
@@ -210,16 +210,68 @@ Let’s create something great together!</h2>
     <p className="text-white">We integrate forward-thinking strategies, creative approaches, <br />
      and state-of-the-art technologies to deliver exceptional customer <br />
       experiences that drive growth and engage target markets.</p>
-   <p className='w-[40%] text-left  bg-yellow-600 text-white font-medium text-base p-2 cursor-pointer rounded-xl shadow-lg mt-4'>view all Services --</p>
+   <p className='w-[40%] text-left  bg-yellow-500 text-white font-medium text-base p-2 cursor-pointer rounded-xl shadow-lg mt-4'>view all Services --</p>
 </div>
   </div>
-  <ul>
-    <li><a href="#web-dev">🌐 Web Development</a></li>
-    <li><a href="#content-writing">✍️ Content Writing</a></li>
-    <li><a href="#seo">📈 SEO Optimization</a></li>
-    <li><a href="#consulting">🤝 Tech Consulting</a></li>
+
+  <div className='grid grid-cols-3 gap-10 w-[90%] justify-center items-center py-10'> 
+
+    <div className='border-gray-500 border-1 p-4 rounded-lg py-10 shadow-xl'>
+      <p className='text-4xl'>🌐</p>
+      <h1 className='text-2xl py-3 font-bold text-white'>Web Development</h1>
+      <p className='text-start text-white'>
+        Nulla facilisi. Maecenas eget magna neque. <br />
+         Suspendisse potenti. Curabitur eleifend nisi <br />
+         non magna vulputate, vel condimentum libero <br />
+         tempus. Proin consectetur feugiat diam.</p>
+    </div>
+     <div className='border-gray-500 border-1 p-4 rounded-lg py-10 shadow-xl'>
+      <p className='text-4xl'>✍️</p>
+      <h1 className='text-2xl py-3 font-bold text-white'>Content Writting</h1>
+      <p className='text-start text-white'>
+        Nulla facilisi. Maecenas eget magna neque. <br />
+         Suspendisse potenti. Curabitur eleifend nisi <br />
+         non magna vulputate, vel condimentum libero <br />
+         tempus. Proin consectetur feugiat diam.</p>
+    </div>
+     <div className='border-gray-500 border-1 p-4 rounded-lg py-10 shadow-xl'>
+      <p className='text-4xl'>📈</p>
+      <h1 className='text-2xl py-3 font-bold text-white'>SEO Optimization</h1>
+      <p className='text-start text-white'>
+        Nulla facilisi. Maecenas eget magna neque. <br />
+         Suspendisse potenti. Curabitur eleifend nisi <br />
+         non magna vulputate, vel condimentum libero <br />
+         tempus. Proin consectetur feugiat diam.</p>
+    </div>
+     <div className='border-gray-500 border-1 p-4 rounded-lg py-10 shadow-xl'>
+      <p className='text-4xl'>🤝 </p>
+      <h1 className='text-2xl py-3 font-bold text-white'>Tech Consulting</h1>
+      <p className='text-start text-white'>
+        Nulla facilisi. Maecenas eget magna neque. <br />
+         Suspendisse potenti. Curabitur eleifend nisi <br />
+         non magna vulputate, vel condimentum libero <br />
+         tempus. Proin consectetur feugiat diam.</p>
+    </div>
+     <div className='border-gray-500 border-1 p-4 rounded-lg py-10 shadow-xl'>
+      <p className='text-4xl'>📶</p>
+      <h1 className='text-2xl py-3 font-bold text-white'>Networking</h1>
+      <p className='text-start text-white'>
+        Nulla facilisi. Maecenas eget magna neque. <br />
+         Suspendisse potenti. Curabitur eleifend nisi <br />
+         non magna vulputate, vel condimentum libero <br />
+         tempus. Proin consectetur feugiat diam.</p>
+    </div>
+     <div className='border-gray-500 border-1 p-4 rounded-lg py-10 shadow-xl'>
+      <p className='text-4xl'>🎥</p>
+      <h1 className='text-2xl py-3 font-bold text-white'>filming</h1>
+      <p className='text-start text-white'>
+        Nulla facilisi. Maecenas eget magna neque. <br />
+         Suspendisse potenti. Curabitur eleifend nisi <br />
+         non magna vulputate, vel condimentum libero <br />
+         tempus. Proin consectetur feugiat diam.</p>
+    </div> 
     
-  </ul>
+  </div>
 </section>
 
 
