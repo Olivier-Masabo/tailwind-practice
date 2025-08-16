@@ -40,14 +40,14 @@ Let’s create something great together!</h2>
           </div>
       </div>
     </div>
-      <div id="about" className="p-10 text-center font-bold text-2xl">
+      <section id="about" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">
         ----------- About ------------
-      </div>
-           <div className="mt-10">
+      </section>
+           <div className="py-10">
              <img class="flex  py-6 md:hidden" src={profil} alt="" />
              <div class="about-page">
 
-<div class= "grid grid-cols-3 text-center" >
+<div class= "grid grid-cols-3 text-center  bg-gray-900 text-white py-10" >
 
   <div class="py-10 ">
     <h2 class="font-bold py-3 text-xl">Introduction</h2>
@@ -100,8 +100,8 @@ Let’s create something great together!</h2>
 
 </div>
 
-  <h1 id="resume" className="p-10 text-center font-bold text-2xl ">----------- Resume -----------</h1>
-<div className="mt-4 flex justify-evenly items-center ">
+  <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Resume -----------</h1>
+<section className=" flex justify-evenly items-center bg-gray-900 py-10">
   <div className='border-green-300 border-2  w-lg text-center h-[60vh] rounded-xl bg-gray-200 m-10'>
     <h2 class="flex items-center text-lg font-bold justify-center mb-5 mt-3">
  
@@ -191,20 +191,27 @@ Let’s create something great together!</h2>
   </div>
 
   
-</div>
+</section>
 
-<section id="services">
-  <p>services</p>
-  <h2>My Services</h2>
+<h1 id="resume" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">----------- Services -----------</h1>
 
-  <div>
-    <div>
-      <h1>Innovative business <span>performance solutions</span></h1>
+<section id="services"  className='bg-gray-900'>
+  <p className='text-lg text-white  ml-5 '>services <span className='text-amber-500 text-lg'>--------</span></p>
+  <h2 className='text-2xl text-white ml-5'> Check out My Services</h2>
+
+  <div  className="grid grid-cols-3 gap-4 py-10">
+    <div className="col-span-2  p-4">
+      <h1 className="text-4xl text-start items-center  font-bold text-white py-5">Innovative business <br />
+      <span class="text-yellow-500 ">performance solutions</span></h1>
     </div>
 
-    <p>We integrate forward-thinking strategies, creative approaches, <br />
+<div className='col-span-1  p-4'>
+
+    <p className="text-white">We integrate forward-thinking strategies, creative approaches, <br />
      and state-of-the-art technologies to deliver exceptional customer <br />
       experiences that drive growth and engage target markets.</p>
+   <p className='w-[40%] text-left  bg-yellow-600 text-white font-medium text-base p-2 cursor-pointer rounded-xl shadow-lg mt-4'>view all Services --</p>
+</div>
   </div>
   <ul>
     <li><a href="#web-dev">🌐 Web Development</a></li>
