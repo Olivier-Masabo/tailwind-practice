@@ -18,8 +18,8 @@ import profile from './assets/prof.jpg'
             <li className="text-red-500 active-link">Home</li>
             <li><a href="#about">About</a></li>
             <li><a href="#resume">Resume</a></li>
-            <li>Services</li>
-            <li>contact</li>-
+            <li href="#services">Services</li>
+            <li>contact</li>
         </ul> 
         </div>
     </nav>
@@ -40,14 +40,14 @@ Let’s create something great together!</h2>
           </div>
       </div>
     </div>
-      <div className="p-10 text-center font-bold text-2xl">
+      <div id="about" className="p-10 text-center font-bold text-2xl">
         ----------- About ------------
       </div>
            <div className="mt-10">
              <img class="flex  py-6 md:hidden" src={profil} alt="" />
              <div class="about-page">
 
-<div class= "grid grid-cols-3 text-center" id="about">
+<div class= "grid grid-cols-3 text-center" >
 
   <div class="py-10 ">
     <h2 class="font-bold py-3 text-xl">Introduction</h2>
@@ -192,6 +192,31 @@ Let’s create something great together!</h2>
 
   
 </div>
+
+<section id="services">
+  <p>services</p>
+  <h2>My Services</h2>
+
+  <div>
+    <div>
+      <h1>Innovative business <span>performance solutions</span></h1>
+    </div>
+
+    <p>We integrate forward-thinking strategies, creative approaches, <br />
+     and state-of-the-art technologies to deliver exceptional customer <br />
+      experiences that drive growth and engage target markets.</p>
+  </div>
+  <ul>
+    <li><a href="#web-dev">🌐 Web Development</a></li>
+    <li><a href="#content-writing">✍️ Content Writing</a></li>
+    <li><a href="#seo">📈 SEO Optimization</a></li>
+    <li><a href="#consulting">🤝 Tech Consulting</a></li>
+    
+  </ul>
+</section>
+
+
+
       </>
   );
 
