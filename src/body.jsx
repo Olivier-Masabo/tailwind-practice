@@ -1,12 +1,17 @@
 import profile from './assets/prof.jpg'
  import float from './assets/newly.png'
  import profil from "./assets/prof.jpg"
+ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+
  function Body(){
 
 
     return (
       <>
     <div
+    
       className="min-h-screen bg-cover bg-center scroll-smooth"
       style={{ backgroundImage: `url(${profile})` }}
        >
@@ -44,7 +49,7 @@ Let’s create something great together!</h2>
         ----------- About ------------
       </section>
            <div className="py-10">
-             <img class="flex  py-6 md:hidden" src={profil} alt="" />
+        
              <div class="about-page">
 
 <div class= "grid grid-cols-3 text-center  bg-gray-900 text-white py-10" >
@@ -281,18 +286,38 @@ Let’s create something great together!</h2>
  <section className=" flex justify-evenly items-center bg-gray-900 py-10">
   <div className=' border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
     <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
- 
-      Education Background
-
+ Customer Care
 </h2>
  <div class="space-y-4 text-white">
-  <h1>customer Care</h1>
+
   <p>Not sure where to start? Need help adding that extra mojo <br />
-  to your landing page ? Just visite our <a href=""> help center</a> or get in touch with us:</p>
+  to your landing page ? Just visite our <a href="#"> help center</a> or get in touch with us:</p>
 
-  
-
+  <div className='flex items-center ml-4'>
+    <div>
+      <img className=' w-20 h-20 rounded-full object-cover' src={profil} alt="" /></div>
+    <div className='text-start ml-4'> 
+      <h1>Pierantonio siempre</h1>
+      <h3>Customer care</h3>
+      <p>Toll free +250 7898 833 263</p>
     
+    </div>
+  </div>
+
+  <div className='flex items-center ml-4'>
+    <div>
+      <img className=' w-20 h-20 rounded-full object-cover' src={float} alt="" /></div>
+    <div className='text-start ml-4'> 
+      <h1>Sasha sloan</h1>
+      <h3>Receptionist</h3>
+      <p>Toll free +250 7888 863 453</p>
+    
+    </div>
+  </div>
+
+  <p>our social-media</p>
+<FontAwesomeIcon icon={faInstagram} className="text-pink-500" />
+<FontAwesomeIcon icon={faYoutube} className="text-red-500" />
   </div>
 
   </div>
