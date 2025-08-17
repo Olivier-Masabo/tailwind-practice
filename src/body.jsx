@@ -278,10 +278,64 @@ Let’s create something great together!</h2>
 <section>
 
   <div>
-   <div>
-   <h1>Contact Me</h1>
-    
-   </div>
+ <section className=" flex justify-evenly items-center bg-gray-900 py-10">
+  <div className=' border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
+    <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
+ 
+      Education Background
+
+</h2>
+ <div class="space-y-4">
+    <p class="text-white">
+      <strong>Tumba College of Technology</strong>
+      <ul>
+      <li>
+        — Bachelor of Information Technology <br /> (Expected 2026)
+        </li> 
+      </ul>
+    </p>
+    <p class="text-white">
+      <strong> Advanced Secondary School</strong>
+      <ul className='list-disc list-inside  text-start px-3'>
+      <li>Networking</li>
+      <li>software development</li>
+      <li>camera installation</li> (Graduated 2024)
+      </ul>
+    </p>
+
+      <p class="text-white">
+      <strong> Ordinary Secondary School</strong>
+      <ul className='list-disc list-inside  text-start px-3'>
+      <li>English basic</li>
+      <li>Communication skills</li>
+      <li>Basic in technology</li> (Graduated 2019)
+      </ul>
+    </p>
+  </div>
+
+  </div>
+  
+    <div className='border-gray-500 border-1  w-lg text-center h-[60vh] rounded-xl m-10 p-4'>
+    <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
+      Contact Me
+</h2>
+ <div class="space-y-4 text-white text-start ml-10">
+ <label htmlFor="">FirstName :</label>
+ <input className='border-gray-400 border-1 rounded-lg p-1 ml-2 w-[60%] outline-hidden' type="text"/> <br />
+  <label htmlFor="">LastName :</label>
+ <input className='border-gray-400 border-1 rounded-lg p-1 ml-2 w-[60%] outline-hidden'  type="text"/> <br />
+  <label htmlFor=""> User-Email :</label>
+ <input className='border-gray-400 border-1 rounded-lg p-1 ml-2 w-[60%] outline-hidden'  type="Email"/> <br />
+ <label htmlFor="">Message :</label><br /> <br />
+ <textarea className='border-gray-400 border-1 rounded-lg p-1 ml-2 w-[80%] pb-15 outline-hidden'  name="" placeholder='message'></textarea>
+<p className='w-[20%]  bg-blue-500 text-white font-medium text-base p-2 cursor-pointer rounded-xl shadow-lg  text-center ml-2'>Send</p>
+   
+  </div>
+
+  </div>
+
+  
+</section>
      
   </div>
 </section>
