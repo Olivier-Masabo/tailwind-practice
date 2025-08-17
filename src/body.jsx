@@ -285,32 +285,14 @@ Let’s create something great together!</h2>
       Education Background
 
 </h2>
- <div class="space-y-4">
-    <p class="text-white">
-      <strong>Tumba College of Technology</strong>
-      <ul>
-      <li>
-        — Bachelor of Information Technology <br /> (Expected 2026)
-        </li> 
-      </ul>
-    </p>
-    <p class="text-white">
-      <strong> Advanced Secondary School</strong>
-      <ul className='list-disc list-inside  text-start px-3'>
-      <li>Networking</li>
-      <li>software development</li>
-      <li>camera installation</li> (Graduated 2024)
-      </ul>
-    </p>
+ <div class="space-y-4 text-white">
+  <h1>customer Care</h1>
+  <p>Not sure where to start? Need help adding that extra mojo <br />
+  to your landing page ? Just visite our <a href=""> help center</a> or get in touch with us:</p>
 
-      <p class="text-white">
-      <strong> Ordinary Secondary School</strong>
-      <ul className='list-disc list-inside  text-start px-3'>
-      <li>English basic</li>
-      <li>Communication skills</li>
-      <li>Basic in technology</li> (Graduated 2019)
-      </ul>
-    </p>
+  
+
+    
   </div>
 
   </div>
