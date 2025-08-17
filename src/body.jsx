@@ -102,7 +102,7 @@ Let’s create something great together!</h2>
 
   <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Resume -----------</h1>
 <section className=" flex justify-evenly items-center bg-gray-900 py-10">
-  <div className='border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
+  <div className=' border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
     <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
  
       Education Background
@@ -193,13 +193,13 @@ Let’s create something great together!</h2>
   
 </section>
 
-<h1 id="resume" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">----------- Services -----------</h1>
+<h1 id="services" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">----------- Services -----------</h1>
 
 <section id="services"  className='bg-gray-900'>
   <p className='text-lg text-white  ml-5 '>services <span className='text-amber-500 text-lg'>--------</span></p>
   <h2 className='text-2xl text-white ml-5'> Check out My Services</h2>
 
-  <div  className="grid grid-cols-3 gap-4 py-10">
+  <div  className="grid grid-cols-3 gap-4 py-10 m-auto">
     <div className="col-span-2  p-4">
       <h1 className="text-4xl text-start items-center  font-bold text-white py-5">Innovative business <br />
       <span class="text-yellow-500 ">performance solutions</span></h1>
@@ -271,6 +271,18 @@ Let’s create something great together!</h2>
          tempus. Proin consectetur feugiat diam.</p>
     </div> 
     
+  </div>
+</section>
+
+  <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Contact -----------</h1>
+<section>
+
+  <div>
+   <div>
+   <h1>Contact Me</h1>
+    
+   </div>
+     
   </div>
 </section>
 
