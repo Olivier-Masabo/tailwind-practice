@@ -1,12 +1,8 @@
 import profile from './assets/prof.jpg'
  import float from './assets/newly.png'
  import profil from "./assets/prof.jpg"
- import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faYoutube } from '@fortawesome/free-brands-svg-icons'
-
+ 
  function Body(){
-
 
     return (
       <>
@@ -23,8 +19,8 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
             <li className="text-red-500 active-link">Home</li>
             <li><a href="#about">About</a></li>
             <li><a href="#resume">Resume</a></li>
-            <li href="#services">Services</li>
-            <li>contact</li>
+            <li><a href="#services">services</a></li>
+            <li ><a href="#contact">contact</a></li>
         </ul> 
         </div>
     </nav>
@@ -46,7 +42,7 @@ Let’s create something great together!</h2>
       </div>
     </div>
       <section id="about" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">
-        ----------- About ------------
+        --------- About ----------
       </section>
            <div className="py-10">
         
@@ -105,7 +101,7 @@ Let’s create something great together!</h2>
 
 </div>
 
-  <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Resume -----------</h1>
+  <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">--------- Resume ---------</h1>
 <section className=" flex justify-evenly items-center bg-gray-900 py-10">
   <div className=' border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
     <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
@@ -198,10 +194,10 @@ Let’s create something great together!</h2>
   
 </section>
 
-<h1 id="services" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">----------- Services -----------</h1>
+<h1 id="services" className="p-10 text-center font-bold text-2xl  bg-gray-800 text-white">--------- Services ---------</h1>
 
 <section id="services"  className='bg-gray-900'>
-  <p className='text-lg text-white  ml-5 '>services <span className='text-amber-500 text-lg'>--------</span></p>
+  <p className='text-lg text-white  ml-5 py-5 '>services <span className='text-amber-500 text-lg'>--------</span></p>
   <h2 className='text-2xl text-white ml-5'> Check out My Services</h2>
 
   <div  className="grid grid-cols-3 gap-4 py-10 m-auto">
@@ -279,7 +275,7 @@ Let’s create something great together!</h2>
   </div>
 </section>
 
-  <h1 id="resume" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Contact -----------</h1>
+  <h1 id="contact" className="p-10 text-center font-bold text-2xl bg-gray-800 text-white">----------- Contact -----------</h1>
 <section>
 
   <div>
@@ -336,19 +332,32 @@ Let’s create something great together!</h2>
  <input className='border-gray-400 border-1 rounded-lg p-1 ml-2 w-[60%] outline-hidden'  type="Email"/> <br />
  <label htmlFor="">Message :</label><br /> <br />
  <textarea className='border-gray-400 border-1 rounded-lg p-1 ml-2 w-[80%] pb-15 outline-hidden'  name="" placeholder='message'></textarea>
-<p className='w-[20%]  bg-blue-500 text-white font-medium text-base p-2 cursor-pointer rounded-xl shadow-lg  text-center ml-2'>Send</p>
+<button className='w-[20%]  bg-blue-500 text-white font-medium text-base p-2 cursor-pointer rounded-xl shadow-lg  text-center ml-2'>Send</button>
    
   </div>
-
   </div>
-
-  
   </div>
 </section>
      
   </div>
 </section>
+  
 
+  <section className='flex justify-around p-10 bg-zinc-700 text-white'>
+    <div> <h1 className="text-4xl text-start items-center  font-bold text-white py-3">Innovative business <br />
+      <span class="text-yellow-500 ">performance solutions</span></h1></div>
+    <div>
+      <h1 className='font-bold py-5'>KIGALI</h1>
+     <p>masaboolivier369@gmail.com</p>
+      <p>+250 7893 388 673</p>
+       <p>intwari 207,Metropolitan horse</p>
+        <p>70 Wapping wall, Kicukiro Wsx 699</p>
+
+
+         <p className='py-5 font-bold'>See On Map</p>
+    </div>
+   
+  </section>
 
 
       </>
