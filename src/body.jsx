@@ -284,7 +284,9 @@ Let’s create something great together!</h2>
 
   <div>
  <section className=" flex justify-evenly items-center bg-gray-900 py-10">
-  <div className=' border-gray-500 border-2  w-lg text-center h-[60vh] rounded-xl  m-10'>
+  <div className='border-gray-500 border-2 flex rounded'>
+
+  <div className='  w-lg text-center h-[60vh] rounded-xl  m-10'>
     <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
  Customer Care
 </h2>
@@ -316,13 +318,12 @@ Let’s create something great together!</h2>
   </div>
 
   <p>our social-media</p>
-<FontAwesomeIcon icon={faInstagram} className="text-pink-500" />
-<FontAwesomeIcon icon={faYoutube} className="text-red-500" />
+
   </div>
 
   </div>
   
-    <div className='border-gray-500 border-1  w-lg text-center h-[60vh] rounded-xl m-10 p-4'>
+    <div className=' w-lg text-center h-[60vh] rounded-xl m-10 p-4'>
     <h2 class="flex items-center text-xl font-bold justify-center mb-5 mt-3 text-yellow-500">
       Contact Me
 </h2>
@@ -342,6 +343,7 @@ Let’s create something great together!</h2>
   </div>
 
   
+  </div>
 </section>
      
   </div>
