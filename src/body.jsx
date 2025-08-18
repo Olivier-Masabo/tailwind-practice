@@ -353,9 +353,30 @@ Let’s create something great together!</h2>
        <p>intwari 207,Metropolitan horse</p>
         <p>70 Wapping wall, Kicukiro Wsx 699</p>
 
+         <p className='py-5 font-bold'>See On Map</p>
+    </div>
+
+      <div>
+      <h1 className='font-bold py-5'>KAMEMBER</h1>
+     <p>masaboolivier369@gmail.com</p>
+      <p>+250 7883 394 673</p>
+       <p>Cabalilo 272 1st floor</p>
+        <p>Our concern</p>
 
          <p className='py-5 font-bold'>See On Map</p>
     </div>
+
+      <div>
+      <h1 className='font-bold py-5'>WANT TO HAVE SMARTEST <br/> THING?</h1>
+     <p>masaboolivier369@gmail.com</p>
+      <p>+250 7893 388 673</p>
+       <p>sign up for our Services freely</p>
+        <p>free access</p>
+
+         <p className='py-5 font-bold'>follow us</p>
+    </div>
+
+     
    
   </section>
 
